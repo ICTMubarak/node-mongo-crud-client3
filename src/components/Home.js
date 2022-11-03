@@ -22,6 +22,7 @@ const Home = () => {
                     alert('User Deleted successfully');
                     const remainingUsers = displayUsers.filter(usr => usr._id !== user._id);
                     setDisplayUsers(remainingUsers);
+                    
                 }
             })
         }
